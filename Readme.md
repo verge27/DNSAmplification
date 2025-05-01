@@ -15,3 +15,8 @@ To use this script, simply run it from the command line, providing the target IP
 python dns_amplification_tool.py 192.168.1.100 8.8.8.8 100 10
 
 This will send 100-byte packets to the DNS server 8.8.8.8, which will then respond to the target IP address 192.168.1.100 for 10 seconds.
+
+> ⚠️ Educational Use Only  
+> This repository demonstrates how DNS amplification works from a technical standpoint. It is intended solely for **network defenders, researchers, and students** studying denial-of-service mitigation.  
+>  
+> 🚫 Do not use this code on public networks. Doing so may violate local laws.
